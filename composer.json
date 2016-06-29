@@ -1,0 +1,24 @@
+{
+    "name": "fastd/dora-bundle",
+    "authors": [
+        {
+            "name": "janhuang",
+            "email": "bboyjanhuang@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "xcl3721/dora-rpc": "^0.4.7"
+    },
+    "require-dev": {
+        "fastd/bundlex": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
